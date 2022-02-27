@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: MIT
 
 let libjpegturbojs = require('../../dist/libjpegturbojs.js');
-let libjpegturbowasm = require('../../dist/libjpegturbowasm.js');
 
 const fs = require('fs')
 
@@ -104,9 +103,3 @@ if(libjpegturbojs) {
   });
 }
 
-if(typeof libjpegturbowasm !== 'undefined') {
-  console.log('testing libjpegturbowasm...');
-  libjpegturbowasm().then(function(libjpegturbo) {
-    main(libjpegturbo);
-  });
-}
