@@ -18,10 +18,7 @@
             "type": "shell",
             "command": "./build-native.sh",
             "problemMatcher": [],
-            "group": {
-                "kind": "build",
-                "isDefault": false
-            }
+            "group": "build"
         }
     ]
 }
