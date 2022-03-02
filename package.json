@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "WASM build of libjpeg-turbo",
   "main": "dist/libjpegturbojs.js",
+  "browser": "dist/libjpegturbojs.web.js",
   "directories": {
     "test": "test"
   },
