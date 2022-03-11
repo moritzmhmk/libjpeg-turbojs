@@ -24,6 +24,7 @@ option(BUILD_WEB "build for web environment")
       LINK_FLAGS "\
         --bind \
         -s MODULARIZE=1 \
+        -s EXPORT_ES6=1 \
         -s EXPORT_NAME=libjpegturbowasm \
         -s DISABLE_EXCEPTION_CATCHING=1 \
         -s ASSERTIONS=0 \
